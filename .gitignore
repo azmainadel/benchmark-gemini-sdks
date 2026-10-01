@@ -5,3 +5,4 @@ __pycache__/
 .ruff_cache/
 .pytest_cache/
 results/*.jsonl
+BENCHMARK_REPORT.md
