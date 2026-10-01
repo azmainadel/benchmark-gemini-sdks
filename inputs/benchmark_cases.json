@@ -1,0 +1,32 @@
+[
+  {
+    "id": "simple-explanation",
+    "thinking_mode": "off",
+    "prompt": "Explain how rainbows form to a curious 10-year-old. Use three short bullet points and one friendly analogy. Keep it under 100 words."
+  },
+  {
+    "id": "lesson-plan",
+    "thinking_mode": "off",
+    "prompt": "Create a practical 45-minute beginner lesson plan for teaching Python loops to students who have never programmed. Include one learning objective, a timed agenda, a hands-on activity, a quick understanding check, and one adaptation for students who finish early. Use a clear table."
+  },
+  {
+    "id": "constrained-itinerary",
+    "thinking_mode": "on",
+    "prompt": "Plan a two-day museum visit for a family. Museum A is open 9:00-17:00 and needs 2 hours; Museum B is open 10:00-16:00 and needs 3 hours; Museum C is open 9:00-15:00 and needs 90 minutes. Travel takes 30 minutes between any pair. Each day has a 60-minute lunch between 11:30 and 14:00, and visits cannot be split. Give a feasible schedule maximizing total museum time, show the checks, and explain whether all three fit. State any assumptions."
+  },
+  {
+    "id": "dag-critical-path",
+    "thinking_mode": "on",
+    "prompt": "You are reviewing a project scheduler. Given n tasks with positive integer durations and prerequisite edges u -> v, tasks run in parallel when dependencies permit. For n up to 200,000 and m up to 400,000, return the makespan, each task's earliest start/finish, and the number of critical prerequisite chains modulo 1,000,000,007. A critical chain is a path whose durations sum to the makespan. Raise ValueError for cycles. Give an O(n+m) algorithm, correctness proof, complete Python implementation, and tests for tied critical paths, disconnected tasks, one task, and a cycle. State assumptions."
+  },
+  {
+    "id": "incremental-json-parser",
+    "thinking_mode": "on",
+    "prompt": "Implement a Python incremental JSON value parser that receives arbitrary text chunks and emits each complete top-level JSON value in order. Chunks may split escape sequences, strings, or nested arrays/objects; whitespace may separate values. Explain the state machine, handle escaped quotes and backslashes correctly, report malformed/incomplete input, and provide tests that split inputs at every character boundary. Aim for O(n) total time and O(max value size) memory. Include code, invariant, and edge cases."
+  },
+  {
+    "id": "quick-invariant-check",
+    "thinking_mode": "off",
+    "prompt": "A service retries a request up to 4 times with delays 100 ms, 200 ms, 400 ms, then 800 ms. The first two attempts fail, the third succeeds. What is the total delay before success? Reply with the calculation and final duration only."
+  }
+]
