@@ -1,0 +1,15 @@
+{
+  "model": "gemini-3.8-flash",
+  "provider": "google",
+  "currency": "USD",
+  "source": "https://models.dev/models/google/gemini-3.8-flash",
+  "source_api": "https://models.dev/api.json",
+  "retrieved_at": "2026-10-01",
+  "effective_until": "2026-12-31",
+  "prices_per_million_tokens": {
+    "input": 0.75,
+    "output": 3.75,
+    "reasoning": 3.75
+  },
+  "reasoning_pricing_note": "Google's listed output price includes thinking tokens; reasoning tokens are billed at the output rate. Do not add separately when already included in SDK output_tokens."
+}
